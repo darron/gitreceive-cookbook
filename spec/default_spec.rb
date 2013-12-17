@@ -13,12 +13,6 @@ describe 'gitreceive::default' do
     expect(chef_run).to create_remote_file('/usr/bin/gitreceive')
   end
 
-  # Can't test for this since it's created with gitreceive init
-  #
-  # it 'creates a user' do
-  #   expect(chef_run).to create_user('git')
-  # end
-
   it 'grabs and installs receiver' do
     expect(chef_run).to create_remote_file('/home/git/receiver')
   end
