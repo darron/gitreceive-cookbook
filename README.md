@@ -35,6 +35,8 @@ Installs and sets up [gitreceive](https://github.com/progrium/gitreceive) for [o
 
 Yes, this is overkill but it's part of a whole Chef based install.
 
+Currently not working due to some sort of sudo LWRP thing. Sorting it out.
+
 Testing
 -------
 
