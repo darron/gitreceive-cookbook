@@ -40,7 +40,7 @@ Currently not complete due to some sort of sudo LWRP thing. Sorting it out.
 Testing
 -------
 
-![Build Status](https://travis-ci.org/darron/gitreceive-cookbook.png?branch=master)](https://travis-ci.org/darron/gitreceive-cookbook)
+![[Build Status](https://travis-ci.org/darron/gitreceive-cookbook.png?branch=master)](https://travis-ci.org/darron/gitreceive-cookbook)
 
 The cookbook provides the following Rake tasks for testing:
 
