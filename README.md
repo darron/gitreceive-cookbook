@@ -35,11 +35,12 @@ Installs and sets up [gitreceive](https://github.com/progrium/gitreceive) for [o
 
 Yes, this is overkill but it's part of a whole Chef based install.
 
-Currently not working due to some sort of sudo LWRP thing. Sorting it out.
+Currently not complete due to some sort of sudo LWRP thing. Sorting it out.
 
 Testing
 -------
 
+![Build Status](https://travis-ci.org/darron/gitreceive-cookbook.png?branch=master)](https://travis-ci.org/darron/gitreceive-cookbook)
 
 The cookbook provides the following Rake tasks for testing:
 
