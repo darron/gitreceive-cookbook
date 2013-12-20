@@ -43,10 +43,10 @@ bash 'initialize gitreceive' do
 end
 # rubocop:enable StringLiterals
 
-# sudo 'git' do
-#   user      'git'
-#   nopasswd  true
-# end
+sudo 'git' do
+  user      'git'
+  nopasswd  true
+end
 
 remote_file node['receiver']['path'] do
   source node['receiver']['url']

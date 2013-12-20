@@ -1,3 +1,7 @@
-# 0.1.0 (DATE)
+# 0.1.0 (2013-12-16)
 
-* _Add your changes here_
+* First release.
+
+# 0.2.0 (2013-12-20)
+
+* Adding sudo LWRP - failing in test-kitchen.
