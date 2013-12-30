@@ -23,5 +23,3 @@ default['gitreceive']['path'] = '/usr/bin/gitreceive'
 
 default['receiver']['url'] = 'https://raw.github.com/octohost/octohost/master/bin/receiver.sh'
 default['receiver']['path'] = '/home/git/receiver'
-
-default['authorization']['sudo']['include_sudoers_d'] = true

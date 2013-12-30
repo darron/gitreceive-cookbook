@@ -43,12 +43,6 @@ bash 'initialize gitreceive' do
 end
 # rubocop:enable StringLiterals
 
-## Does not work - honestly not sure why.
-# sudo 'git' do
-#   user      'git'
-#   nopasswd  true
-# end
-
 sudo 'git' do
   template  'git.erb' # local cookbook template
 end
