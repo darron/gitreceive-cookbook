@@ -39,12 +39,12 @@ bash 'initialize gitreceive' do
   code <<-EOH
     /usr/bin/gitreceive init
   EOH
-  not_if { File.exists?('/home/git') }
+  not_if { File.exist?('/home/git') }
 end
 # rubocop:enable StringLiterals
 
 sudo 'git' do
-  template  'git.erb' # local cookbook template
+  template 'git.erb' # local cookbook template
 end
 
 remote_file node['receiver']['path'] do
