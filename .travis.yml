@@ -1,13 +1,12 @@
 language: ruby
-
 rvm:
-  - 1.9.3
-  - 2.0.0
-
+- 1.9.3
+- 2.0.0
 install: bundle install --without=integration
-
 script: bundle exec rake test
-
 branches:
   only:
-    - master
+  - master
+notifications:
+  slack:
+    secure: U+TWhibTdikQ3/QMnoyhMA8NI0soP0YhKPt4tViNjxmazfbmNrojDwIWk9wyzhFcbKSw6+NvjPoEmQbB2HEUXSCEVZrBAqP4WgkB0bavW7I80eAazRpeNYe+Z3X+tn/QS0i1b9Ojzyec0w7O36l5uCBfc+ozDZltb2YiQIFW2jA=
